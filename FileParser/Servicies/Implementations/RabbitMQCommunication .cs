@@ -1,6 +1,10 @@
-﻿using FileParser.Servicies.Interfaces;
-using RabbitMQ.Client;
+﻿using System;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
+using FileParser.Servicies.Interfaces;
+using RabbitMQ.Client;
+using Serilog;
 
 namespace FileParser.Implementations
 {
@@ -11,19 +15,26 @@ namespace FileParser.Implementations
         private readonly string routingKey;
         private readonly string queueName;
 
-        public RabbitMQCommunication(string rabbitMQConnectionString, string exchangeName, string routingKey)
+        private static readonly SemaphoreSlim semaphoreSlim = new SemaphoreSlim(1, 1);
+        private readonly ILogger logger;
+
+        public RabbitMQCommunication(string rabbitMQConnectionString, string exchangeName, string routingKey, ILogger logger)
         {
             this.rabbitMQConnectionString = rabbitMQConnectionString ?? throw new ArgumentNullException(nameof(rabbitMQConnectionString));
             this.exchangeName = exchangeName ?? throw new ArgumentNullException(nameof(exchangeName));
             this.routingKey = routingKey ?? throw new ArgumentNullException(nameof(routingKey));
-            this.queueName = "queue_name"; 
-            InitializeRabbitMQ();
+            this.queueName = "queue_name";
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
+
+            Task.Run(async () => await InitializeRabbitMQAsync());
         }
 
         public void SendData(string jsonData)
         {
             try
             {
+                semaphoreSlim.Wait();
+
                 var factory = new ConnectionFactory() { Uri = new Uri(rabbitMQConnectionString) };
 
                 using (var connection = factory.CreateConnection())
@@ -33,22 +44,26 @@ namespace FileParser.Implementations
 
                     channel.BasicPublish(exchange: exchangeName, routingKey: routingKey, basicProperties: null, body: body);
 
-                    Console.WriteLine($"Sent to RabbitMQ ({queueName}): {jsonData}");
+                    logger.Information($"Sent to RabbitMQ ({queueName}): {jsonData}");
                 }
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error sending data to RabbitMQ ({queueName}): {ex.Message}");
+                logger.Error($"Error sending data to RabbitMQ ({queueName}): {ex.Message}");
+            }
+            finally
+            {
+                semaphoreSlim.Release();
             }
         }
 
-        private void InitializeRabbitMQ()
+        private async Task InitializeRabbitMQAsync()
         {
             try
             {
                 var factory = new ConnectionFactory() { Uri = new Uri(rabbitMQConnectionString) };
 
-                using (var connection = factory.CreateConnection())
+                using (var connection = await Task.Run(() => factory.CreateConnection()))
                 using (var channel = connection.CreateModel())
                 {
                     channel.ExchangeDeclare(exchange: exchangeName, type: ExchangeType.Direct);
@@ -60,9 +75,8 @@ namespace FileParser.Implementations
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error initializing RabbitMQ ({queueName}): {ex.Message}");
+                logger.Error($"Error initializing RabbitMQ ({queueName}): {ex.Message}");
             }
         }
     }
 }
-

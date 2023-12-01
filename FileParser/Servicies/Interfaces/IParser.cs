@@ -1,12 +1,13 @@
 ﻿using Newtonsoft.Json.Linq;
+using System.Threading;
+using System.Threading.Tasks;
 using System.Xml;
-using System;
 
 namespace FileParser.Servicies.Interfaces
 {
     public interface IParser
     {
-        XmlDocument LoadXmlDocument(string filePath);
-        JObject GetInstrumentStatus(XmlDocument xmlDoc);
+        Task<XmlDocument> LoadXmlDocumentAsync(string filePath, CancellationToken cancellationToken = default);
+        Task<JObject> GetInstrumentStatusAsync(XmlDocument xmlDoc, CancellationToken cancellationToken = default);
     }
 }

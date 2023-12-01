@@ -1,5 +1,6 @@
 ﻿using FileParser.Servicies.Interfaces;
 using Newtonsoft.Json.Linq;
+using Serilog;
 
 namespace FileParser.Implementations
 {
@@ -7,24 +8,43 @@ namespace FileParser.Implementations
     {
         private readonly IRabbitMQCommunication rabbitMQCommunication;
         private readonly IParser fileParser;
+        private static readonly SemaphoreSlim semaphoreSlim = new SemaphoreSlim(1, 1);
+        private readonly ILogger logger;
 
-        public DataProcessor(IRabbitMQCommunication rabbitMQCommunication, IParser fileParser)
+        public DataProcessor(IRabbitMQCommunication rabbitMQCommunication, IParser fileParser, ILogger logger)
         {
             this.rabbitMQCommunication = rabbitMQCommunication ?? throw new ArgumentNullException(nameof(rabbitMQCommunication));
             this.fileParser = fileParser ?? throw new ArgumentNullException(nameof(fileParser));
+            this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
         public void ProcessFile(string filePath)
         {
+            Task.Run(async () =>
+            {
+                await ProcessFileAsync(filePath);
+            });
+        }
+
+        private async Task ProcessFileAsync(string filePath)//private
+        {
             try
             {
-                var xmlDoc = fileParser.LoadXmlDocument(filePath);
-                JObject jsonData = fileParser.GetInstrumentStatus(xmlDoc);
+                await semaphoreSlim.WaitAsync();
+
+                var xmlDoc = await fileParser.LoadXmlDocumentAsync(filePath);
+                JObject jsonData = await fileParser.GetInstrumentStatusAsync(xmlDoc);
                 rabbitMQCommunication.SendData(jsonData.ToString());
+
+                logger.Information($"File processed successfully: {filePath}");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Error processing file {filePath}: {ex.Message}");
+                logger.Error($"Error processing file {filePath}: {ex.Message}");
+            }
+            finally
+            {
+                semaphoreSlim.Release();
             }
         }
     }
