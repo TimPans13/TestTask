@@ -18,26 +18,26 @@ namespace FileParser.Implementations
         private static readonly SemaphoreSlim semaphoreSlim = new SemaphoreSlim(1, 1);
         private readonly ILogger logger;
 
-        public RabbitMQCommunication(string rabbitMQConnectionString, string exchangeName, string routingKey, ILogger logger)
+        public RabbitMQCommunication(string rabbitMQConnectionString, string exchangeName, string routingKey, string queueName, ILogger logger)
         {
             this.rabbitMQConnectionString = rabbitMQConnectionString ?? throw new ArgumentNullException(nameof(rabbitMQConnectionString));
             this.exchangeName = exchangeName ?? throw new ArgumentNullException(nameof(exchangeName));
             this.routingKey = routingKey ?? throw new ArgumentNullException(nameof(routingKey));
-            this.queueName = "queue_name";
+            this.queueName = queueName ?? throw new ArgumentNullException(nameof(queueName));
             this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
 
             Task.Run(async () => await InitializeRabbitMQAsync());
         }
 
-        public void SendData(string jsonData)
+        public async Task SendDataAsync(string jsonData)
         {
             try
             {
-                semaphoreSlim.Wait();
+                await semaphoreSlim.WaitAsync();
 
                 var factory = new ConnectionFactory() { Uri = new Uri(rabbitMQConnectionString) };
 
-                using (var connection = factory.CreateConnection())
+                using (var connection = await Task.Run(() => factory.CreateConnection()))
                 using (var channel = connection.CreateModel())
                 {
                     var body = Encoding.UTF8.GetBytes(jsonData);
@@ -78,5 +78,6 @@ namespace FileParser.Implementations
                 logger.Error($"Error initializing RabbitMQ ({queueName}): {ex.Message}");
             }
         }
+
     }
 }

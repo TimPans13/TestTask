@@ -1,16 +1,18 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DataProcessor.Models;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
-using SQLiteDB.Models;
+using Microsoft.Extensions.Configuration;
+using System.ComponentModel.DataAnnotations;
 
-namespace SQLiteDB.Data
+namespace DataProcessor.Data
 {
     public class AppDbContext : DbContext
     {
 
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
+            Message = Set<MessageModel>();
         }
-
         public DbSet<MessageModel> Message { get; set; }
     }
 
@@ -18,8 +20,15 @@ namespace SQLiteDB.Data
     {
         public AppDbContext CreateDbContext(string[] args)
         {
+            IConfiguration configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .Build();
+
+            var connectionString = configuration["ConnectionDBStrings:AppDbContext"] ?? throw new ArgumentNullException(nameof(AppDbContext), "Connection string is null or empty");
+
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            optionsBuilder.UseSqlite("Data Source=test.db");
+            optionsBuilder.UseSqlite(connectionString);
 
             return new AppDbContext(optionsBuilder.Options);
         }

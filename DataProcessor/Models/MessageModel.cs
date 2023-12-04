@@ -1,4 +1,4 @@
-﻿namespace SQLiteDB.Models
+﻿namespace DataProcessor.Models
 {
     public class MessageModel
     {
@@ -6,6 +6,11 @@
         public string? Message { get; set; }
         public string? ModuleCategoryID { get; set; }
         public string? ModuleState { get; set; }
+    }
+
+    public class InstrumentStatusContainer
+    {
+        public InstrumentStatus InstrumentStatus { get; set; }
     }
 
     public class CombinedSamplerStatus
@@ -30,7 +35,6 @@
         public CombinedPumpStatus CombinedPumpStatus { get; set; }
         public CombinedOvenStatus CombinedOvenStatus { get; set; }
     }
-
 
     public class DeviceStatus
     {

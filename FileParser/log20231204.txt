@@ -1,0 +1,2190 @@
+2023-12-04 14:48:42.072 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:42.134 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:48:43.158 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:43.180 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:48:44.194 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:44.234 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:48:45.259 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:45.292 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:48:46.317 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:46.373 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:48:47.398 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:47.454 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:48:48.463 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:48.517 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:48:49.528 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:49.561 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:48:50.580 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:48:50.616 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:48:51.631 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:14.734 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:15.751 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:15.785 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:16.803 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:16.824 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:49:17.834 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:17.896 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:18.912 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:18.925 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:19.944 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:19.961 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:49:20.978 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:20.993 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:22.009 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:22.028 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:23.038 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:23.056 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:49:24.078 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:24.094 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:25.104 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:25.128 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:26.149 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:26.166 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:49:27.174 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:27.185 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:28.194 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:28.205 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:29.225 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:29.243 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:49:30.257 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:30.274 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:31.288 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:31.303 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:32.321 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:32.340 +03:00 [INF] File processed successfully: D:\sas\statusss.xml
+2023-12-04 14:49:33.351 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 2,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:33.372 +03:00 [INF] File processed successfully: D:\sas\ss.xml
+2023-12-04 14:49:34.382 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "Run",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 0,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Online",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "26.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:34.408 +03:00 [INF] File processed successfully: D:\sas\status.xml
+2023-12-04 14:49:35.445 +03:00 [INF] Sent to RabbitMQ (queue_name): {
+  "InstrumentStatus": {
+    "PackageID": "LicArt62",
+    "DeviceStatus": [
+      {
+        "ModuleCategoryID": "SAMPLER",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedSamplerStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Status": "0",
+            "Vial": "L-A-1",
+            "Volume": "0",
+            "MaximumInjectionVolume": "0",
+            "RackL": "Tray54C",
+            "RackR": "Tray54C",
+            "RackInf": "0",
+            "Buzzer": "true"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "QUATPUMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedPumpStatus": {
+            "ModuleState": "NotReady",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "Mode": "ISO",
+            "Flow": "0",
+            "PercentB": "0",
+            "PercentC": "0",
+            "PercentD": "0",
+            "MinimumPressureLimit": "0",
+            "MaximumPressureLimit": "400.0330947751624",
+            "Pressure": "0",
+            "PumpOn": "false",
+            "Channel": "0"
+          }
+        }
+      },
+      {
+        "ModuleCategoryID": "COLCOMP",
+        "IndexWithinRole": 1,
+        "RapidControlStatus": {
+          "CombinedOvenStatus": {
+            "ModuleState": "Offline",
+            "IsBusy": "false",
+            "IsReady": "true",
+            "IsError": "false",
+            "KeyLock": "false",
+            "UseTemperatureControl": "false",
+            "OvenOn": "false",
+            "Temperature_Actual": "28.22",
+            "Temperature_Room": "27.81",
+            "MaximumTemperatureLimit": "0",
+            "Valve_Position": "0",
+            "Valve_Rotations": "0",
+            "Buzzer": "true"
+          }
+        }
+      }
+    ]
+  }
+}
+2023-12-04 14:49:35.453 +03:00 [INF] File processed successfully: D:\sas\statusss.xml

@@ -1,7 +1,7 @@
-﻿namespace SQLiteDB.Servicies.Interfaces
+﻿namespace DataProcessor.Servicies.Interfaces
 {
     public interface IRabbitMQService
     {
-        public void ReceiveMessages();
+        Task StartReceivingMessagesAsync();
     }
 }

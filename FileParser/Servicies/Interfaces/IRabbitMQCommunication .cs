@@ -4,6 +4,6 @@ namespace FileParser.Servicies.Interfaces
 {
     public interface IRabbitMQCommunication
     {
-        void SendData(string jsonData);
+        Task SendDataAsync(string jsonData);
     }
 }

@@ -18,23 +18,20 @@ namespace FileParser.Implementations
             this.logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        public void ProcessFile(string filePath)
+        public async Task ProcessFile(string filePath, CancellationToken cancellationToken = default)
         {
-            Task.Run(async () =>
-            {
-                await ProcessFileAsync(filePath);
-            });
+            await ProcessFileAsync(filePath, cancellationToken);
         }
 
-        private async Task ProcessFileAsync(string filePath)//private
+        private async Task ProcessFileAsync(string filePath, CancellationToken cancellationToken = default)
         {
             try
             {
                 await semaphoreSlim.WaitAsync();
 
-                var xmlDoc = await fileParser.LoadXmlDocumentAsync(filePath);
-                JObject jsonData = await fileParser.GetInstrumentStatusAsync(xmlDoc);
-                rabbitMQCommunication.SendData(jsonData.ToString());
+                var xmlDoc = await fileParser.LoadXmlDocumentAsync(filePath, cancellationToken);
+                JObject jsonData = await fileParser.GetInstrumentStatusAsync(xmlDoc, cancellationToken);
+                await rabbitMQCommunication.SendDataAsync(jsonData.ToString());
 
                 logger.Information($"File processed successfully: {filePath}");
             }
@@ -47,5 +44,6 @@ namespace FileParser.Implementations
                 semaphoreSlim.Release();
             }
         }
+
     }
 }
